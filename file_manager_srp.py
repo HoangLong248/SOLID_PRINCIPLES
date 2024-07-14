@@ -20,7 +20,7 @@ class FileManager():
         with ZipFile(self.path.with_suffix(".zip"), mode="r") as archive:
             archive.extractall()
 
-
+"-------------------------------"
 class FileManager():
     def __init__(self, filename):
         self.path = Path(filename)

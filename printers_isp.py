@@ -37,6 +37,7 @@ class ModernPrinter(Printer):
         print(f"Scanning {document}...")
 
 
+"-------------------------------"
 class Printer(ABC):
     @abstractmethod
     def print(self, document):
